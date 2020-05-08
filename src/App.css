@@ -24,6 +24,7 @@
 }
 
 .container{
+  background-color: #081229;
   display: flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
@@ -95,6 +96,13 @@ input{
   text-align: center;
 }
 
+.heading{
+  display: block;
+  justify-content: space-between;
+}
 
+h3{
+  justify-content: center;
+}
 
 

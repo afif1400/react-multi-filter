@@ -75,8 +75,8 @@ class MyApp extends React.Component {
       products = products.filter(item => item.rating <= this.state.filterRating);
     }
     return(
-    <div className="container">
-      <div className="filters">
+    <div className="container col" >
+       <div className="filters">
         <label for="name">Name:
         <input id="name" onChange={this.changeFilterName} value={this.state.filterName} />
         </label>
